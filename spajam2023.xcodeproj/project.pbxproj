@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78A057F2ACD5C6100EB02AC /* spajam2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A057E2ACD5C6100EB02AC /* spajam2023App.swift */; };
+		C78A05812ACD5C6100EB02AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A05802ACD5C6100EB02AC /* ContentView.swift */; };
+		C78A05832ACD5C6100EB02AC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A05822ACD5C6100EB02AC /* Item.swift */; };
+		C78A05852ACD5C6200EB02AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78A05842ACD5C6200EB02AC /* Assets.xcassets */; };
+		C78A05882ACD5C6200EB02AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78A05872ACD5C6200EB02AC /* Preview Assets.xcassets */; };
+		C78A05922ACD5C6200EB02AC /* spajam2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A05912ACD5C6200EB02AC /* spajam2023Tests.swift */; };
+		C78A059C2ACD5C6200EB02AC /* spajam2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A059B2ACD5C6200EB02AC /* spajam2023UITests.swift */; };
+		C78A059E2ACD5C6200EB02AC /* spajam2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A059D2ACD5C6200EB02AC /* spajam2023UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C78A058E2ACD5C6200EB02AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78A05732ACD5C6100EB02AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78A057A2ACD5C6100EB02AC;
+			remoteInfo = spajam2023;
+		};
+		C78A05982ACD5C6200EB02AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78A05732ACD5C6100EB02AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78A057A2ACD5C6100EB02AC;
+			remoteInfo = spajam2023;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C78A057B2ACD5C6100EB02AC /* spajam2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spajam2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A057E2ACD5C6100EB02AC /* spajam2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajam2023App.swift; sourceTree = "<group>"; };
+		C78A05802ACD5C6100EB02AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C78A05822ACD5C6100EB02AC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C78A05842ACD5C6200EB02AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C78A05872ACD5C6200EB02AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C78A058D2ACD5C6200EB02AC /* spajam2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spajam2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A05912ACD5C6200EB02AC /* spajam2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajam2023Tests.swift; sourceTree = "<group>"; };
+		C78A05972ACD5C6200EB02AC /* spajam2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spajam2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A059B2ACD5C6200EB02AC /* spajam2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajam2023UITests.swift; sourceTree = "<group>"; };
+		C78A059D2ACD5C6200EB02AC /* spajam2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajam2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78A05782ACD5C6100EB02AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A058A2ACD5C6200EB02AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A05942ACD5C6200EB02AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78A05722ACD5C6100EB02AC = {
+			isa = PBXGroup;
+			children = (
+				C78A057D2ACD5C6100EB02AC /* spajam2023 */,
+				C78A05902ACD5C6200EB02AC /* spajam2023Tests */,
+				C78A059A2ACD5C6200EB02AC /* spajam2023UITests */,
+				C78A057C2ACD5C6100EB02AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78A057C2ACD5C6100EB02AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78A057B2ACD5C6100EB02AC /* spajam2023.app */,
+				C78A058D2ACD5C6200EB02AC /* spajam2023Tests.xctest */,
+				C78A05972ACD5C6200EB02AC /* spajam2023UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78A057D2ACD5C6100EB02AC /* spajam2023 */ = {
+			isa = PBXGroup;
+			children = (
+				C78A057E2ACD5C6100EB02AC /* spajam2023App.swift */,
+				C78A05802ACD5C6100EB02AC /* ContentView.swift */,
+				C78A05822ACD5C6100EB02AC /* Item.swift */,
+				C78A05842ACD5C6200EB02AC /* Assets.xcassets */,
+				C78A05862ACD5C6200EB02AC /* Preview Content */,
+			);
+			path = spajam2023;
+			sourceTree = "<group>";
+		};
+		C78A05862ACD5C6200EB02AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C78A05872ACD5C6200EB02AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C78A05902ACD5C6200EB02AC /* spajam2023Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C78A05912ACD5C6200EB02AC /* spajam2023Tests.swift */,
+			);
+			path = spajam2023Tests;
+			sourceTree = "<group>";
+		};
+		C78A059A2ACD5C6200EB02AC /* spajam2023UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C78A059B2ACD5C6200EB02AC /* spajam2023UITests.swift */,
+				C78A059D2ACD5C6200EB02AC /* spajam2023UITestsLaunchTests.swift */,
+			);
+			path = spajam2023UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78A057A2ACD5C6100EB02AC /* spajam2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78A05A12ACD5C6200EB02AC /* Build configuration list for PBXNativeTarget "spajam2023" */;
+			buildPhases = (
+				C78A05772ACD5C6100EB02AC /* Sources */,
+				C78A05782ACD5C6100EB02AC /* Frameworks */,
+				C78A05792ACD5C6100EB02AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spajam2023;
+			productName = spajam2023;
+			productReference = C78A057B2ACD5C6100EB02AC /* spajam2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78A058C2ACD5C6200EB02AC /* spajam2023Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78A05A42ACD5C6200EB02AC /* Build configuration list for PBXNativeTarget "spajam2023Tests" */;
+			buildPhases = (
+				C78A05892ACD5C6200EB02AC /* Sources */,
+				C78A058A2ACD5C6200EB02AC /* Frameworks */,
+				C78A058B2ACD5C6200EB02AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78A058F2ACD5C6200EB02AC /* PBXTargetDependency */,
+			);
+			name = spajam2023Tests;
+			productName = spajam2023Tests;
+			productReference = C78A058D2ACD5C6200EB02AC /* spajam2023Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C78A05962ACD5C6200EB02AC /* spajam2023UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78A05A72ACD5C6200EB02AC /* Build configuration list for PBXNativeTarget "spajam2023UITests" */;
+			buildPhases = (
+				C78A05932ACD5C6200EB02AC /* Sources */,
+				C78A05942ACD5C6200EB02AC /* Frameworks */,
+				C78A05952ACD5C6200EB02AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78A05992ACD5C6200EB02AC /* PBXTargetDependency */,
+			);
+			name = spajam2023UITests;
+			productName = spajam2023UITests;
+			productReference = C78A05972ACD5C6200EB02AC /* spajam2023UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78A05732ACD5C6100EB02AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C78A057A2ACD5C6100EB02AC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C78A058C2ACD5C6200EB02AC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C78A057A2ACD5C6100EB02AC;
+					};
+					C78A05962ACD5C6200EB02AC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C78A057A2ACD5C6100EB02AC;
+					};
+				};
+			};
+			buildConfigurationList = C78A05762ACD5C6100EB02AC /* Build configuration list for PBXProject "spajam2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78A05722ACD5C6100EB02AC;
+			productRefGroup = C78A057C2ACD5C6100EB02AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78A057A2ACD5C6100EB02AC /* spajam2023 */,
+				C78A058C2ACD5C6200EB02AC /* spajam2023Tests */,
+				C78A05962ACD5C6200EB02AC /* spajam2023UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78A05792ACD5C6100EB02AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78A05882ACD5C6200EB02AC /* Preview Assets.xcassets in Resources */,
+				C78A05852ACD5C6200EB02AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A058B2ACD5C6200EB02AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A05952ACD5C6200EB02AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78A05772ACD5C6100EB02AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78A05812ACD5C6100EB02AC /* ContentView.swift in Sources */,
+				C78A05832ACD5C6100EB02AC /* Item.swift in Sources */,
+				C78A057F2ACD5C6100EB02AC /* spajam2023App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A05892ACD5C6200EB02AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78A05922ACD5C6200EB02AC /* spajam2023Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A05932ACD5C6200EB02AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78A059C2ACD5C6200EB02AC /* spajam2023UITests.swift in Sources */,
+				C78A059E2ACD5C6200EB02AC /* spajam2023UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C78A058F2ACD5C6200EB02AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78A057A2ACD5C6100EB02AC /* spajam2023 */;
+			targetProxy = C78A058E2ACD5C6200EB02AC /* PBXContainerItemProxy */;
+		};
+		C78A05992ACD5C6200EB02AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78A057A2ACD5C6100EB02AC /* spajam2023 */;
+			targetProxy = C78A05982ACD5C6200EB02AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C78A059F2ACD5C6200EB02AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78A05A02ACD5C6200EB02AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78A05A22ACD5C6200EB02AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"spajam2023/Preview Content\"";
+				DEVELOPMENT_TEAM = U3D6XNPQ9X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = men.zuruzurura.spajam2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78A05A32ACD5C6200EB02AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"spajam2023/Preview Content\"";
+				DEVELOPMENT_TEAM = U3D6XNPQ9X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = men.zuruzurura.spajam2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C78A05A52ACD5C6200EB02AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D6XNPQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = men.zuruzurura.spajam2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spajam2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spajam2023";
+			};
+			name = Debug;
+		};
+		C78A05A62ACD5C6200EB02AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D6XNPQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = men.zuruzurura.spajam2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spajam2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spajam2023";
+			};
+			name = Release;
+		};
+		C78A05A82ACD5C6200EB02AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D6XNPQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = men.zuruzurura.spajam2023UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spajam2023;
+			};
+			name = Debug;
+		};
+		C78A05A92ACD5C6200EB02AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D6XNPQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = men.zuruzurura.spajam2023UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spajam2023;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78A05762ACD5C6100EB02AC /* Build configuration list for PBXProject "spajam2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78A059F2ACD5C6200EB02AC /* Debug */,
+				C78A05A02ACD5C6200EB02AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78A05A12ACD5C6200EB02AC /* Build configuration list for PBXNativeTarget "spajam2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78A05A22ACD5C6200EB02AC /* Debug */,
+				C78A05A32ACD5C6200EB02AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78A05A42ACD5C6200EB02AC /* Build configuration list for PBXNativeTarget "spajam2023Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78A05A52ACD5C6200EB02AC /* Debug */,
+				C78A05A62ACD5C6200EB02AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78A05A72ACD5C6200EB02AC /* Build configuration list for PBXNativeTarget "spajam2023UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78A05A82ACD5C6200EB02AC /* Debug */,
+				C78A05A92ACD5C6200EB02AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78A05732ACD5C6100EB02AC /* Project object */;
+}
